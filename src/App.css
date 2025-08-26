@@ -40,3 +40,92 @@
 .read-the-docs {
   color: #888;
 }
+
+/* Auth UI container */
+.auth-container {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+/* Individual auth card */
+.auth-card {
+  background-color: #1a1a1a;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  max-width: 320px;
+  width: 100%;
+  color: white;
+  width: 360px;
+  margin-top: 2rem;
+}
+
+.auth-card h2 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.auth-card input {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  background: #333;
+  color: #fff;
+  border: 1px solid #444;
+  border-radius: 4px;
+}
+
+.auth-card button {
+  width: 100%;
+}
+
+.error-text {
+  color: #f44336;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+#export-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.tab-toggle {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.tab-toggle button {
+  flex: 1;
+  padding: 0.75rem;
+  background: none;
+  border: none;
+  border-bottom: 2px solid transparent;
+  color: inherit;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.tab-toggle button.active {
+  border-bottom-color: #646cff;
+}
+
+/* Admin actions: row layout for Export CSV and Sign Out */
+.admin-actions {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin-top: 1rem;
+  justify-content: center;
+}
+
+/* Non-admin actions: center sign out button */
+.nonadmin-actions {
+  margin-top: 1rem;
+}
